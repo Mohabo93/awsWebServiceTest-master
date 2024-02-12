@@ -13,4 +13,9 @@ public class newController {
     public String welcome() {
         return "Startsida";
     }
+
+    @GetMapping("/about")
+    public String about() {
+        return "About";
+    }
 }
